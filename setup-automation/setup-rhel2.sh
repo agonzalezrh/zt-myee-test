@@ -3,7 +3,7 @@
 echo "starting setup-rhel2.sh" >> /tmp/runtime-scripts/setup-rhel2.log
 
 echo "LITELLM_API_KEY: $LITELLM_API_KEY" >> /tmp/runtime-scripts/setup-rhel2.log
-# echo $LITELLM_API_KEY >> /tmp/LITELLM_API_KEY
+echo $LITELLM_API_KEY >> /tmp/LITELLM_API_KEY
 
 
 # cd /tmp
